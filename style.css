@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(1.jpg);
+    background-position: center;
+    background-size:cover ;
+    height: 109vh;
+    float: left;
+}
+
+.navbar{
+    width: 1200px;
+    height:50px;
+    margin: auto;
+
+}
+.icon{
+    width:200px ;
+    float: left;
+    height:70px;
+}
+
+.logo{
+    color:#ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 0px;
+    padding-top: 40px;
+    margin-left: 0px; 
+}
+
+ul{
+    display: flex;
+    align-items:center;
+}
+ul li{
+    padding: 60px;
+    list-style: none;
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color:#fefcfc ;
+    font-family: Arial;
+    font-weight: bold;
+    transition:0.4s ease-in-out;
+
+
+}
+ul li a:hover{
+    color:#ff7200;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position:relative;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top rgba(0,0,0,0.8)50%,rgba(o,0,0,0.8)50%);
+    position: absolute ;
+    top:-20px;
+    left:870px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+.content span{
+    color: #ff7200;
+}
+.content  p{
+    margin-top: 50px;
+}
+.form h2{
+    color:black;
+    font-size: medium;
+  text-decoration: none;
+}
+.btn a{
+    color: black;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+}
+
+.cn{
+    text-underline-offset: none;
+    
+}
+.content.cn a{
+    text-decoration: none;
+    color: #110101;
+    transition: 3s ease;
+    font-size: medium;
+  text-decoration: none;
+}
+.cn:hover{
+    background-color: #fff;
+}
+
+.form{
+    width:250px;
+    height:380px;
+    background:rgba(0,0,0,0.8);
+    border-radius:10px;
+    padding:25px;
+    color:white;
+}
+
+.form h2{
+    text-align:center;
+    color:#ff7200;
+    margin-bottom:20px;
+}
+
+.form input{
+    width:100%;
+    height:35px;
+    margin-top:15px;
+    background:transparent;
+    border:1px solid #ff7200;
+    color:white;
+    padding-left:10px;
+    outline:none;
+}
+
+.form input::placeholder{
+    color:#ccc;
+}
+
+.btn{
+    width:100%;
+    height:40px;
+    background:#ff7200;
+    border:none;
+    margin-top:20px;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.link{
+    text-align:center;
+    margin-top:15px;
+}
+
+.link a{
+    color:#ff7200;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.liw{
+    text-align:center;
+    margin-top:15px;
+}
