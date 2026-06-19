@@ -27,11 +27,11 @@
 
 .logo{
     color:#ff7200;
-    font-size: 35px;
+    font-size: 25px;
     font-family: Arial;
     padding-left: 0px;
-    padding-top: 40px;
-    margin-left: 0px; 
+    padding-top: 25px;
+    
 }
 
 ul{
@@ -93,21 +93,18 @@ ul li a:hover{
     height: 40px;
     background: #ff7200;
     border: none;
-}
-
-.cn{
-    text-underline-offset: none;
-    
-}
-.content.cn a{
     text-decoration: none;
-    color: #110101;
-    transition: 3s ease;
-    font-size: medium;
-  text-decoration: none;
+}
+  
+/* purani class over lap kar rahi thi cn ki  */
+.cn a{
+    text-decoration: none;
+    color: black;
+    display: black;
 }
 .cn:hover{
     background-color: #fff;
+    text-decoration: none;
 }
 
 .form{
@@ -166,3 +163,4 @@ ul li a:hover{
     text-align:center;
     margin-top:15px;
 }
+
